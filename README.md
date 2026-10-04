@@ -684,40 +684,7 @@ The result is a structured and user-friendly HR application that
 improves data consistency and gives HR a single place to manage employee
 operations.
 
-Project Architecture at a Glance
 
-                         ┌──────────────┐
-                         │  Department  │
-                         └──────┬───────┘
-                                │ Lookup
-                                ▼
-┌────────────┐          ┌──────────────┐          ┌──────────────┐
-│   Contact  │◄─────────│   Employee   │─────────►│  HR Asset    │
-└────────────┘  Lookup  └──────┬───────┘  Lookup  └──────────────┘
-                                │
-                    ┌───────────┼───────────┐
-                    │           │           │
-              Master-Detail  Self-Lookup  Lookup
-                    │           │           │
-                    ▼           ▼           ▼
-              ┌──────────┐ ┌──────────┐ ┌──────────┐
-              │  Leave   │ │ Manager  │ │   User   │
-              │ Request  │ │ Employee │ │  Login   │
-              └──────────┘ └──────────┘ └──────────┘
-
-                         Employee
-                            │
-                         Junction
-                            ▼
-                     ┌──────────────┐
-                     │Employee Skill│
-                     └──────┬───────┘
-                            │
-                         Lookup
-                            ▼
-                       ┌─────────┐
-                       │  Skill  │
-                       └─────────┘
 
 Author
 
