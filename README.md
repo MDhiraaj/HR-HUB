@@ -99,7 +99,7 @@ Action: Sends the Welcome Email Alert and creates two onboarding Tasks (Prepare 
 
 Through building the HR Hub, I reinforced several key Salesforce administration principles:
 Configuration First: Leveraging declarative tools (Flows, Validation Rules) ensures the system remains agile and easily maintainable without code deployments.
-Data Quality at the Source: Using Validation Rules and Lookup Filters prevents bad data from entering the system via the UI, API, or Data Loader.
+Data Quality at the Source: Using Validation Rules.
 
 # Conclusion
 The HR Hub successfully transitions the HR department from fragmented spreadsheets to a unified, automated, and secure Salesforce environment. It provides real-time visibility into leave balances, automates onboarding and leave communications, and ensures company assets are tracked securely.
