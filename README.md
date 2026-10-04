@@ -1,4 +1,4 @@
-Project Overview
+# Project Overview
 
 HR Hub is a Salesforce application built to manage core HR
 information in one place. It manages departments, employees, skills,
