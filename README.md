@@ -49,6 +49,10 @@ Contact
 Lookup (to Employee)
 Reused the standard Contact object for emergency contacts to avoid creating redundant custom objects.
 
+
+<img width="887" height="390" alt="Screenshot 2026-10-01 090634" src="https://github.com/user-attachments/assets/a6c784a2-73f9-4691-927a-c0df53d4f94b" />
+
+
 # Validation Rules
 
 Implemented 11 Validation Rules to ensure data quality at the point of entry (UI, API, and Imports):
